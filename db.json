@@ -1,0 +1,201 @@
+{
+  "invoices": [
+    {
+      "id": "f05662dd-e3c3-4458-a8e6-0c87d04cd039",
+      "number": 347,
+      "customerName": "Amazon",
+      "companyInn": "40801001002003004",
+      "contractName": "Amazon_Jan_20",
+      "invoiceDate": "2020-03-03T09:00:00.000Z",
+      "dueDate": "2020-04-02T09:00:00.000Z",
+      "total": 5100.0,
+      "taxRate": 20.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 0,
+        "name": "Created"
+      },
+      "pdf": "",
+      "items": [
+        {
+          "id": "c961bbd7-a4d9-4c11-9708-f9a4d01248dc",
+          "description": "Application development",
+          "price": 20,
+          "unitType": "Hours",
+          "quantity": 172,
+          "totalPrice": 3440
+        },
+        {
+          "id": "eead98ac-0888-400c-a2c4-2cb3dea19ace",
+          "description": "Design",
+          "price": 18,
+          "unitType": "Hours",
+          "quantity": 80,
+          "totalPrice": 1440
+        },
+        {
+          "id": "5fe5ecc6-bcbd-4848-ac42-0d6ee83455b4",
+          "description": "Hand testing",
+          "price": 11,
+          "unitType": "Hours",
+          "quantity": 20,
+          "totalPrice": 220
+        }
+      ],
+      "history": [
+        {
+          "id": "a9e756b5-b960-41a9-8f34-a06d9e3a407b",
+          "invoiceId": "f05662dd-e3c3-4458-a8e6-0c87d04cd039",
+          "status": {
+            "id": 0,
+            "name": "Created"
+          },
+          "date": "2020-02-28T09:00:00.000Z",
+          "userName": "Daniil Merglodov"
+        }
+      ]
+    },
+    {
+      "id": "6203bfca-ac8b-49e7-a779-d4cf6ab3799e",
+      "number": 346,
+      "customerName": "Amazon",
+      "contractName": "Amazon_Jan_20",
+      "invoiceDate": "2020-02-03T09:00:00.000Z",
+      "dueDate": "2020-03-02T09:00:00.000Z",
+      "total": 2450.0,
+      "taxRate": 20.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 0,
+        "name": "Created"
+      },
+      "pdf": ""
+    },
+    {
+      "id": "83ae1b62-7ca2-4c09-8636-f77bd11a7b9b",
+      "number": 345,
+      "customerName": "Amazon",
+      "contractName": "Amazon_Jan_19",
+      "invoiceDate": "2019-12-03T09:00:00.000Z",
+      "dueDate": "2020-01-02T09:00:00.000Z",
+      "total": 3000.0,
+      "taxRate": 18.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 1,
+        "name": "Sended"
+      },
+      "pdf": ""
+    },
+    {
+      "id": "e972e283-642c-4291-b97c-5500d5182ef1",
+      "number": 344,
+      "customerName": "Amazon",
+      "contractName": "Amazon_Jan_19",
+      "invoiceDate": "2019-11-15T09:00:00.000Z",
+      "dueDate": "2019-12-02T09:00:00.000Z",
+      "total": 1300.0,
+      "taxRate": 18.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 1,
+        "name": "Sended"
+      },
+      "pdf": ""
+    },
+    {
+      "id": "fa3416bc-439b-4b75-8955-539ca321f0ae",
+      "number": "DM-3",
+      "customerName": "Daniil Merglodov",
+      "contractName": "Daniil_Jan_19",
+      "invoiceDate": "2019-11-01T09:00:00.000Z",
+      "dueDate": "2019-11-12T09:00:00.000Z",
+      "total": 1470.0,
+      "taxRate": 18.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 2,
+        "name": "Canceled"
+      },
+      "pdf": ""
+    },
+    {
+      "id": "8cbc5523-3817-4670-8e3b-2efee8973d43",
+      "number": "DM-2",
+      "customerName": "Daniil Merglodov",
+      "contractName": "Daniil_Jan_19",
+      "invoiceDate": "2019-10-01T09:00:00.000Z",
+      "dueDate": "2019-10-31T09:00:00.000Z",
+      "total": 3100.0,
+      "taxRate": 18.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 3,
+        "name": "Closed"
+      },
+      "pdf": ""
+    },
+    {
+      "id": "75653e73-22a8-40dc-8ed0-fc0748f80e1d",
+      "number": "DM-1",
+      "customerName": "Daniil Merglodov",
+      "contractName": "Daniil_Jan_19",
+      "invoiceDate": "2019-09-01T09:00:00.000Z",
+      "dueDate": "2019-09-15T09:00:00.000Z",
+      "total": 2120.0,
+      "taxRate": 17.0,
+      "currency": {
+        "id": 0,
+        "code": "USD",
+        "symbol": "$"
+      },
+      "status": {
+        "id": 3,
+        "name": "Closed"
+      },
+      "pdf": ""
+    }
+  ],
+  "statuses": [
+    {
+      "id": 0,
+      "name": "Created"
+    },
+    {
+      "id": 1,
+      "name": "Sended"
+    },
+    {
+      "id": 2,
+      "name": "Canceled"
+    },
+    {
+      "id": 3,
+      "name": "Closed"
+    }
+  ]
+}
